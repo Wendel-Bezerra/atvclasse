@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>jsp</title>
 <meta name="author" content="Wendel Campos Bezerra,Guilherme Gentili de almeida">
-<meta name="keywords" content="web,200024945, 200023098">
+<meta name="keywords" content="web,200024945, 200023099">
 <meta name="description" content="Atividades sobre jsp">
 </head>
 <body>
@@ -18,10 +18,10 @@
         <select id="estadoCivil" name="estadoCivil">
             <option value="Solteiro(a)">Solteiro(a)</option>
             <option value="Casado(a)">Casado(a)</option>
-            <!-- Adicione mais opções conforme necessário -->
+            <!-- Adicione mais opÃ§Ãµes conforme necessÃ¡rio -->
         </select><br>
 
-        <label for="faixaEtaria">Faixa Etária:</label><br>
+        <label for="faixaEtaria">Faixa EtÃ¡ria:</label><br>
         <select id="faixaEtaria" name="faixaEtaria">
             <option value="3 a 10 anos">3 a 10 anos</option>
             <option value="11 a 25 anos">11 a 25 anos</option>
@@ -40,7 +40,7 @@
         if (nome != null && estadoCivil != null && faixaEtaria != null) {
             out.println("Nome: " + nome);
             out.println("Estado Civil: " + estadoCivil);
-            out.println("Faixa Etária: " + faixaEtaria);
+            out.println("Faixa EtÃ¡ria: " + faixaEtaria);
         }
     %>
 </body>
